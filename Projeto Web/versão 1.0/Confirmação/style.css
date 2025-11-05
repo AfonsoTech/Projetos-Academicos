@@ -1,0 +1,56 @@
+
+header {
+    background-color: #222; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between; /* Alinha logo à esquerda e nav à direita */
+    align-items: center;
+}
+.logo img {
+    max-height: 80px;
+    width: auto;
+}
+header nav h1 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: Sans-serif;
+    font-weight: bold;
+}  
+footer { 
+        background-color: #333;
+        color: #ccc; 
+        box-sizing: border-box;
+        padding: 35px 50px; 
+        font-size: 0.9em;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        position: fixed; 
+        bottom: 0;
+        width: 100%;
+}
+footer p {
+     margin: 0; /* Remove margem padrão */
+     font-family: Sans-serif;
+     font-weight: bold;
+}
+.footer-links {
+     display: flex;
+     gap: 20px; 
+}
+.footer-links a {
+    color: #aaa; /* Cor um pouco mais clara para destaque */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.2s; /* Efeito suave ao passar o mouse */
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+.footer-links a:hover {
+     color: #fff; /* Fica branco ao passar o mouse */
+     text-decoration: underline; /* Adiciona o sublinhado ao passar */
+}
+
+
+       
+
