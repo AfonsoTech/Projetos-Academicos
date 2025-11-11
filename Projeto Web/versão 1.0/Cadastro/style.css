@@ -1,3 +1,9 @@
+body {
+    display: flex;             /* Habilita o Flexbox */
+    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
+    margin: 0;                 /* Remove margens padrão do body */
+}
 header {
     background-color: #222;
     color: white;
@@ -27,7 +33,7 @@ font-weight: bold;
 font-family: Sans-serif;
 }
 main {
-    font-family: sans-serif;
+    flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
     display: flex;
     justify-content: center;
     align-items: center;
