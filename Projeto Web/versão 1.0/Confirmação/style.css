@@ -26,45 +26,45 @@ main {
     flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
 }
 h1 {
-text-align: center;
+    text-align: center;
 }
 h1, h2, p {
-font-family: Sans-serif;
-font-weight: bold;
+    font-family: Sans-serif;
+    font-weight: bold;
 }
 .destaque-genero {
-color: #e67e22;
-font-weight: bold;
-font-family: Sans-Serif;
+    color: #e67e22;
+    font-weight: bold;
+    font-family: Sans-Serif;
 }
 footer {
-padding: 35px 50px;
-box-sizing: border-box;
-background-color: #222;
-align-itens: center;
-justify-content: space-between;
-display: flex;
+    padding: 35px 50px;
+    box-sizing: border-box;
+    background-color: #222;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 footer p {
-font-family: Sans-serif;
-color:white;
-font-weight: bold;
-margin: 0;
+    font-family: Sans-serif;
+    color:white;
+    font-weight: bold;
+    margin: 0;
 }
 .footer-links {
-     display: flex;
-     gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 .footer-links a {
-font-family: Sans-serif;
-color: white;
-font-weight: bold;
-text-decoration: none;
-transition: color 0.2s;
+    font-family: Sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 .footer-links a:hover {
-     color: #fff; /* Fica branco ao passar o mouse */
-     text-decoration: underline; /* Adiciona o sublinhado ao passar */
+    color: #fff; /* Fica branco ao passar o mouse */
+    text-decoration: underline; /* Adiciona o sublinhado ao passar */
 }
 
 
