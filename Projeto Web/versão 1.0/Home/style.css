@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+body {
+     background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+     
+     margin: 0;
+     padding: 0;
+     font-family: Sans-serif;
+}
+h1, h2 {
+    color: #e67e22;
+    text-shadow: 0.7px 0.7px 1.4px white;
+}
+.cor-paragrafos {
+    color: #e67e22;
+    text-shadow: 0.7px 0.7px 1.4px white;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 0.7px white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 8px 20px;
+    flex-wrap: wrap;
+}
+.logo img {
+    max-height: 80px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px white;
+    border-radius: 10px;
+}
+header nav h1 {
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: white;
+    text-shadow: 0.7px 0.7px 0.7px white;
+}
+
+/* MAIN */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 40px;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+}
+main h1 {
+    text-align: center;
+}
+
+/* BLOCO DE FILMES */
+.filme {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+    border-radius: 10px;
+}
+.filme img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #e67e22;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+  background: none;
+}
+.descricao {
+    flex: 1;
+}
+.descricao h2 {
+    margin-top: 0;
+}
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #e67e22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    }
+        
+.button:hover {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00ccff, #0077ff);
+}
+    .filme img {
+     display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #e67e22;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+  background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+  }
+        .emoji-invocacao-do-mal img {
+           width: 60px;
+          border-radius: 10px;
+          border: 2px solid #e67e22;
+          box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+          object-fit: cover;
+          
+        } 
+        button img {
+           background-color: #e67e22;
+           border-radius: 10px;
+           box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+          cursor: pointer;
+          
+          transition: all 0.3s ease;
+          }
+          button:hover img {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00ccff, #0077ff);
+    
+    }
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 16px 30px;
+    flex-wrap: wrap;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+   font-siz: Sans-serif;
+   text-shadow: 0.7px 0.7px 0.7px white;
+   font-size: clamp(0.6rem, 3vw, 1.2rem);
+}
+.links-rodapé {
+    font-family: Sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: clamp(0.6rem, 3vw, 1.2rem);
+    text-shadow: 0.7px 0.7px 0.7px white;
+}
+.links-rodapé a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .filme {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .filme img {
+        width: 100%;
+        max-width: 600px;
+    }
+    .descricao {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+

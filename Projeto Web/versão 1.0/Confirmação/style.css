@@ -1,0 +1,123 @@
+body {
+    display: flex;             /* Habilita o Flexbox */
+    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
+    background-color: #121420;
+    margin: 0;             
+}
+header {
+   
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between; /* Alinha logo à esquerda e nav à direita */
+    align-items: center;
+    margin-top: none;
+    margin-right: none;
+    margin-bottom: none;
+    margin-left: none;
+}
+.logo img {
+    max-height: 80px;
+    width: auto;
+    border: none;
+    box-shadow: none;
+    margin:0;
+}
+header nav h1 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: Sans-serif;
+    font-weight: bold;
+    
+}
+main {
+    flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
+    margin:0;
+}
+img {
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    border-radius: 10px;
+    height: auto;
+    float: right;
+    border: 2px solid #e67e22;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    
+}
+h1 {
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 20px
+    text-shadow: 0.4px 0.4px 0.4px #e67e22;
+}      
+p {
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+    
+}
+h2 {
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: #e67e22; 
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+}
+.destaque-genero {
+    color: #e67e22;
+    font-weight: bold;
+    font-family: Sans-Serif;
+}
+footer {
+    padding: 35px 50px;
+    box-sizing: border-box;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    
+}
+footer p {
+    font-family: Sans-serif;
+    color:white;
+    font-weight: bold;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+.footer-links a {
+    font-family: Sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: #fff; /* Fica branco ao passar o mouse */
+    text-decoration: underline; /* Adiciona o sublinhado ao passar */
+}
+
+
+

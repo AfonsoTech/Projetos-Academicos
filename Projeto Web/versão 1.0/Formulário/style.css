@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+button form {
+    /*laranja fundo  */
+           border-radius: 10px;
+           box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+          cursor: pointer;
+          transition: all 0.3s ease;
+          }
+button:hover form {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00ccff, #0077ff);
+    
+    }
+body {
+    display: flex;             /* Habilita o Flexbox */
+    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
+    margin: 0; /* Remove margens padrão do body */
+
+}
+header {
+    padding: 8px 20px;
+    box-sizing: border-box;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo img {
+    max-height: 80px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px white;
+    border-radius: 10px;
+}
+header nav h1 {
+    font-family: Sans-serif;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: white;
+    text-shadow: 0.7px 0.7px 0.7px white;
+}
+main {
+    flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+}
+form {
+    background-color: rgba(15, 15, 25, 0.95);
+    border: 2px solid #e67e22;/*laranja borda   */
+    border-radius: 10px;
+    padding: 25px 40px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15); /*sombra    */
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Sans-serif;
+    text-shadow: 0.4px 0.4px 0.4px #e67e22;
+    color: #e67e22;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: Sans-serif;
+ }
+.centralizar-link {
+    text-align: center;
+}
+.cor-laranja {
+    color: #e67e22;
+}
+.botao {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Sans-serif;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    transition: all 0.3s ease;
+}
+.botao:hover {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #ff9800, #e67e22);
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 16px 30px;
+    flex-wrap: wrap;
+}
+.links-rodapé {
+    display: flex;
+    gap: 20px;
+}
+.links-rodapé a {
+    font-family: Sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: clamp(0.6rem, 3vw, 1.2rem);
+    text-shadow: 0.7px 0.7px 0.7px white;
+}
+.links-rodapé a:hover {
+    color: #fff;
+    text-decoration: underline;
+    
+}
+footer p {
+    color: white;
+    font-weight: bold;
+   font-siz: Sans-serif;
+   text-shadow: 0.7px 0.7px 0.7px white;
+   font-size: clamp(0.6rem, 3vw, 1.2rem);
+}
