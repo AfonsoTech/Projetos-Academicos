@@ -1,6 +1,9 @@
 ## 💻 Sobre o Projeto
 
-Projeto web desenvolvido em grupo ao longo do aprendizado da disciplina de Desenvolvimento Web no curso ADS.
+Kayanoplex Cinemas é um software aplicativo web desenvolvido para fins acadêmicos.
+---
+## Objetivo
+Simular a compra de ingresso(s) de filmes em cartaz nos cinemas.
 
 * **Tema:** Cinema
 * **Objetivo:** Simular a compra de ingresso(s)
