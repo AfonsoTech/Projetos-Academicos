@@ -1,6 +1,6 @@
 # Ignorar arquivos de projeto do Code::Blocks
-*.cbp
+*.cbp 
 
 # Opcional: Ignorar pastas de binários/executáveis (caso Code::Blocks crie)
-/bin/
+/bin/ 
 /obj/
