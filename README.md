@@ -1,3 +1,3 @@
-##💻 Projetos
-- Meus projetos academicos da faculdade ADS e pessoas também.
+## 💻 Projetos
+- Meus projetos academicos da faculdade ADS e pessoas também.:)
 
