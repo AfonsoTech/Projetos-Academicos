@@ -9,7 +9,8 @@ Simular a compra de ingresso(s) de filmes em cartaz nos cinemas.
 ---
 
 ## 🤝 Stakeholders
-Estudantes e Professor.
+- Estudantes: Afonso Henrique, Caio Wanil, Juan Aquino, Kayan Alexandre, Richard Lee.
+- Porfessor: André Sobral.
 
 ---
 
